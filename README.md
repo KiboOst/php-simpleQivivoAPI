@@ -8,7 +8,9 @@ This php API is a set of functions used with the official Qivivo API, so you don
 
 Actually, the official API doesn't support multi-zone. You can have a look here if you need it: [php-qivivoAPI](https://github.com/KiboOst/php-qivivoAPI)
 
-
+This *warper* api will be updated to follow official Qivivo API updates. It is intended to replace [unofficial API](https://github.com/KiboOst/php-qivivoAPI) when full multi-zone is supported.<br />
+Feel free to submit an issue or pull request if something is missing, or simply ask for help.<br />
+[Official Facebook community](https://www.facebook.com/groups/communautedesclientsqivivo/)
 
 [Requirements](#requirements)<br />
 [How-to](#how-to)<br />
@@ -33,7 +35,6 @@ If you don't have Qivivo App yet, just create one, it's simple and free:
 - Download class/splQivivoAPI.php and put it on your server.
 - Include splQivivoAPI.php in your script.
 - Start it with your Qivivo *Client ID* and *Secret ID*.
-
 
 #### Connection
 
@@ -90,12 +91,11 @@ $uuid = 'fcb231fd-3eda-4089-8fb0-643c966d2ef3';
 $moduleInfos = $_qivivo->getModuleInfos($uuid);
 echo "<pre>_____>moduleInfos:<br>".json_encode($moduleInfos, JSON_PRETTY_PRINT)."</pre><br>";
 
-
-//!following reading functions actually works only when multizone is NOT enabled (official API limitations):
-
 //Retrieve user programs:
 $thermostatPrograms = $_qivivo->getThermostatPrograms();
 echo "<pre>_____>thermostatPrograms:<br>".json_encode($thermostatPrograms, JSON_PRETTY_PRINT)."</pre><br>";
+
+//!following reading functions actually works only when multizone is NOT enabled (official API limitations):
 
 //Retrieve the last temperature measured by the wireless module:
 $moduleTemperature = $_qivivo->getModuleTemperature($uuid);
@@ -158,44 +158,44 @@ echo "<pre>_____>activeProgram:<br>".json_encode($activeProgram, JSON_PRETTY_PRI
 $program = array();
 $program['name'] = 'myProgram';
 $program['program']['monday'] = array(array('period_start'=>'00:00',
-											'period_end'=>'06:59',
-											'temperature_setting'=>'night_temperature',
-											),
-									  array('period_start'=>'07:00',
-										 	'period_end'=>'23:59',
-										 	'temperature_setting'=>'night_temperature'
-											)
-								);
+					    'period_end'=>'06:59',
+					    'temperature_setting'=>'night_temperature',
+					    ),
+				      array('period_start'=>'07:00',
+					    'period_end'=>'23:59',
+					    'temperature_setting'=>'night_temperature'
+					    )
+					    );
 $program['program']['tuesday'] = array(array('period_start'=>'07:00',
-										 	'period_end'=>'23:59',
-										 	'temperature_setting'=>'night_temperature'
-											)
-								);
+					    'period_end'=>'23:59',
+					    'temperature_setting'=>'night_temperature'
+					    )
+					    );
 $program['program']['wednesday'] = array(array('period_start'=>'07:00',
-										 	'period_end'=>'23:59',
-										 	'temperature_setting'=>'night_temperature'
-											)
-								);
+					    'period_end'=>'23:59',
+					    'temperature_setting'=>'night_temperature'
+					    )
+					    );
 $program['program']['thursday'] = array(array('period_start'=>'07:00',
-										 	'period_end'=>'23:59',
-										 	'temperature_setting'=>'night_temperature'
-											)
-								);
+					    'period_end'=>'23:59',
+					    'temperature_setting'=>'night_temperature'
+					    )
+					    );
 $program['program']['friday'] = array(array('period_start'=>'07:00',
-										 	'period_end'=>'23:59',
-										 	'temperature_setting'=>'night_temperature'
-											)
-								);
+					    'period_end'=>'23:59',
+					    'temperature_setting'=>'night_temperature'
+					    )
+					    );
 $program['program']['saturday'] = array(array('period_start'=>'07:00',
-										 	'period_end'=>'23:59',
-										 	'temperature_setting'=>'night_temperature'
-											)
-								);
+					    'period_end'=>'23:59',
+					    'temperature_setting'=>'night_temperature'
+					    )
+					    );
 $program['program']['sunday'] = array(array('period_start'=>'07:00',
-										 	'period_end'=>'23:59',
-										 	'temperature_setting'=>'night_temperature'
-											)
-								);
+					    'period_end'=>'23:59',
+					    'temperature_setting'=>'night_temperature'
+					    )
+					    );
 $newProgram = $_qivivo->createThermostatProgram($program);
 echo "<pre>_____>newProgram:<br>".json_encode($newProgram, JSON_PRETTY_PRINT)."</pre><br>";
 
