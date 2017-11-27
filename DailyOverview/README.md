@@ -6,7 +6,7 @@ Since summer 2017, new Qivivo customers doesn't have daily overview anymore. Yes
 
 Anyway, such feedback is really important to adapt your programs regarding inertia, heating reactivity and such.
 
-Here is a how-to to get your Daily Overview!
+Here is a how-to to get your Daily Overview, with full interactivity other the graph (hide some data, zoom, etc.)!
 
 <p align="center">
   <img src="DailyOverview.jpg">
@@ -15,6 +15,11 @@ Here is a how-to to get your Daily Overview!
 *On this screen, exterior temperature is reported by Netatmo exterior module. See [SimpleNetatmo](https://github.com/KiboOst/php-simpleNetatmoAPI) if you have such module, as Qivivo API doesn't report it.*
 
 *Note: Qivivo API doesn't report sun conditions. You can customize files to report it on your own if you want.*
+
+## Disclaimer
+- The Qivivo API doesn't provide information regarding heating or not. Heating is computed from order and temperature evolution, so it may have variance. Also, you could have your thermostat working regarding PID (default) or hysteresis, and even ask Qivivo to change delta value before turning heating on, whic we can't know. Anyway, my tests show 98% reliability ;-)
+- Even if you are in multizone mode, this graph show only thermostat zone. Other zones works with wire order to radiators, and Qivivo has no way to know if a radiator is heating or not, being regulated by its own radiator thermostat.
+
 
 ## Requirements
 - [php-simpleQivivoAPI ready to run](https://github.com/KiboOst/php-simpleQivivoAPI)
