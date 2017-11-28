@@ -902,2537 +902,1119 @@
             "current_humidity": 38.4,
             "presence_detected": 0,
             "exterior_temperature": 9
-        }
-    },
-    "26.11.2017": {
-        "00:00": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.5,
-            "current_humidity": 39.7,
-            "presence_detected": 0,
-            "exterior_temperature": 2.5
-        },
-        "00:05": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.8,
-            "presence_detected": 1,
-            "exterior_temperature": 2.5
-        },
-        "00:10": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.8,
-            "presence_detected": 1,
-            "exterior_temperature": 2.4
-        },
-        "00:15": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.4,
-            "presence_detected": 0,
-            "exterior_temperature": 2.4
-        },
-        "00:20": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.4,
-            "presence_detected": 0,
-            "exterior_temperature": 2.3
-        },
-        "00:25": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.4,
-            "presence_detected": 0,
-            "exterior_temperature": 2.3
-        },
-        "00:30": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.2,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 2.2
-        },
-        "00:35": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.2,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 2.2
-        },
-        "00:40": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.2,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 2.2
-        },
-        "00:45": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.09,
-            "current_humidity": 39.6,
-            "presence_detected": 0,
-            "exterior_temperature": 2.2
-        },
-        "00:50": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.09,
-            "current_humidity": 39.6,
-            "presence_detected": 0,
-            "exterior_temperature": 2.1
-        },
-        "00:55": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.09,
-            "current_humidity": 39.8,
-            "presence_detected": 1,
-            "exterior_temperature": 2.1
-        },
-        "01:00": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.09,
-            "current_humidity": 39.8,
-            "presence_detected": 1,
-            "exterior_temperature": 2
-        },
-        "01:05": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20.09,
-            "current_humidity": 39.8,
-            "presence_detected": 1,
-            "exterior_temperature": 2
-        },
-        "01:10": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.9
-        },
-        "01:15": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.9
-        },
-        "01:20": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 20,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.9
-        },
-        "01:25": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.9,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 1.9
-        },
-        "01:30": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.9,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 1.8
-        },
-        "01:35": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.9,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.8
-        },
-        "01:40": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.9,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.8
-        },
-        "01:45": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.9,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.8
-        },
-        "01:50": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.9,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 1.7
-        },
-        "01:55": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.9,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 1.7
-        },
-        "02:00": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.7,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 1.6
-        },
-        "02:05": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.7,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 1.6
-        },
-        "02:10": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.7,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 1.6
-        },
-        "02:15": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 1.6
-        },
-        "02:20": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 1.5
-        },
-        "02:25": {
-            "current_temperature_order": 17.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 1.5
-        },
-        "02:30": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.5,
-            "presence_detected": 1,
-            "exterior_temperature": 1.5
-        },
-        "02:35": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.5,
-            "presence_detected": 1,
-            "exterior_temperature": 1.5
-        },
-        "02:40": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.5,
-            "presence_detected": 1,
-            "exterior_temperature": 1.4
-        },
-        "02:45": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.5,
-            "presence_detected": 0,
-            "exterior_temperature": 1.4
-        },
-        "02:50": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.5,
-            "presence_detected": 0,
-            "exterior_temperature": 1.3
-        },
-        "02:55": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.59,
-            "current_humidity": 40.5,
-            "presence_detected": 0,
-            "exterior_temperature": 1.3
-        },
-        "03:00": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.5,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 1.3
-        },
-        "03:05": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.5,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 1.3
-        },
-        "03:10": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.4,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 1.2
-        },
-        "03:15": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.4,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 1.2
-        },
-        "03:20": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.4,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 1.2
-        },
-        "03:25": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.3,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 1.2
-        },
-        "03:30": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.3,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 1.2
-        },
-        "03:35": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.2,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.2
-        },
-        "03:40": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.2,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.1
-        },
-        "03:45": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.2,
-            "current_humidity": 40,
-            "presence_detected": 0,
-            "exterior_temperature": 1.1
-        },
-        "03:50": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.4,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 1.1
-        },
-        "03:55": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.4,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 1.1
-        },
-        "04:00": {
-            "current_temperature_order": 19.5,
-            "current_temperature": 19.4,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 1
-        },
-        "04:05": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 1
-        },
-        "04:10": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 1
-        },
-        "04:15": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.5,
-            "current_humidity": 39.7,
-            "presence_detected": 0,
-            "exterior_temperature": 1
-        },
-        "04:20": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.5,
-            "current_humidity": 39.7,
-            "presence_detected": 0,
-            "exterior_temperature": 0.9
-        },
-        "04:25": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.5,
-            "current_humidity": 39.7,
-            "presence_detected": 0,
-            "exterior_temperature": 0.9
-        },
-        "04:30": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.4,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.9
-        },
-        "04:35": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.4,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.9
-        },
-        "04:40": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.3,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.8
-        },
-        "04:45": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.3,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.8
-        },
-        "04:50": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.3,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.8
-        },
-        "04:55": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 0.8
-        },
-        "05:00": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "05:05": {
-            "current_temperature_order": 18,
-            "current_temperature": 19.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "05:10": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.3,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "05:15": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.3,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "05:20": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.2,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "05:25": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.2,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "05:30": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.2,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "05:35": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.09,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "05:40": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.09,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "05:45": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.09,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "05:50": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.09,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "05:55": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.09,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "06:00": {
-            "current_temperature_order": 19,
-            "current_temperature": 19,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "06:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 18.9,
-            "current_humidity": 40.4,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "06:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 18.9,
-            "current_humidity": 40.4,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "06:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 18.9,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "06:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 18.9,
-            "current_humidity": 40.4,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "06:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 18.9,
-            "current_humidity": 40.4,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "06:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 18.9,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "06:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "06:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.09,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "06:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.09,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "06:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.09,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "06:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.09,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "07:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.09,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "07:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.2,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "07:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.2,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.3,
-            "current_humidity": 39.4,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.3,
-            "current_humidity": 39,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.3,
-            "current_humidity": 39,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.3,
-            "current_humidity": 39,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.4,
-            "current_humidity": 39.1,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.4,
-            "current_humidity": 39.1,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.4,
-            "current_humidity": 39.1,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.5,
-            "current_humidity": 39,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "07:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.4,
-            "current_humidity": 38.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "08:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.4,
-            "current_humidity": 38.9,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "08:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.4,
-            "current_humidity": 39,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "08:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.5,
-            "current_humidity": 38.7,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "08:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.5,
-            "current_humidity": 38.7,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "08:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.4,
-            "current_humidity": 38.7,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "08:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.5,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "08:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.5,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.4
-        },
-        "08:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.5,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "08:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.59,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "08:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.59,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "08:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.59,
-            "current_humidity": 38.4,
-            "presence_detected": 0,
-            "exterior_temperature": 0.5
-        },
-        "08:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.59,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "09:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.59,
-            "current_humidity": 38.4,
-            "presence_detected": 0,
-            "exterior_temperature": 0.6
-        },
-        "09:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.5,
-            "current_humidity": 38.3,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "09:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.5,
-            "current_humidity": 38.3,
-            "presence_detected": 0,
-            "exterior_temperature": 0.7
-        },
-        "09:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.7,
-            "current_humidity": 38.2,
-            "presence_detected": 0,
-            "exterior_temperature": 0.8
-        },
-        "09:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.7,
-            "current_humidity": 38,
-            "presence_detected": 0,
-            "exterior_temperature": 0.8
-        },
-        "09:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.7,
-            "current_humidity": 38,
-            "presence_detected": 0,
-            "exterior_temperature": 1
-        },
-        "09:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.7,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 1
-        },
-        "09:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.8,
-            "current_humidity": 38.2,
-            "presence_detected": 0,
-            "exterior_temperature": 1.3
-        },
-        "09:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.8,
-            "current_humidity": 38.2,
-            "presence_detected": 0,
-            "exterior_temperature": 1.3
-        },
-        "09:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.8,
-            "current_humidity": 38.4,
-            "presence_detected": 0,
-            "exterior_temperature": 1.5
-        },
-        "09:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.8,
-            "current_humidity": 37.7,
-            "presence_detected": 1,
-            "exterior_temperature": 1.5
-        },
-        "09:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.8,
-            "current_humidity": 38.1,
-            "presence_detected": 1,
-            "exterior_temperature": 1.8
-        },
-        "10:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.8,
-            "current_humidity": 37.7,
-            "presence_detected": 0,
-            "exterior_temperature": 1.8
-        },
-        "10:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 37.7,
-            "presence_detected": 0,
-            "exterior_temperature": 2.2
-        },
-        "10:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 37.6,
-            "presence_detected": 0,
-            "exterior_temperature": 2.2
-        },
-        "10:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 37.6,
-            "presence_detected": 1,
-            "exterior_temperature": 2.5
-        },
-        "10:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.8,
-            "current_humidity": 37.3,
-            "presence_detected": 1,
-            "exterior_temperature": 2.5
-        },
-        "10:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20,
-            "current_humidity": 37.2,
-            "presence_detected": 0,
-            "exterior_temperature": 2.9
-        },
-        "10:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 37.1,
-            "presence_detected": 1,
-            "exterior_temperature": 2.9
-        },
-        "10:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 37.1,
-            "presence_detected": 1,
-            "exterior_temperature": 3.3
-        },
-        "10:40": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 37,
-            "presence_detected": 1,
-            "exterior_temperature": 3.3
         },
         "10:45": {
-            "current_temperature_order": 19,
-            "current_temperature": 20,
-            "current_humidity": 37,
-            "presence_detected": 1,
-            "exterior_temperature": 3.5
+            "current_temperature_order": 18,
+            "current_temperature": 19,
+            "current_humidity": 38.6,
+            "presence_detected": 0,
+            "exterior_temperature": 9.2
         },
         "10:50": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 36.9,
+            "current_temperature_order": 18,
+            "current_temperature": 19,
+            "current_humidity": 38.6,
             "presence_detected": 0,
-            "exterior_temperature": 3.5
+            "exterior_temperature": 9.2
         },
         "10:55": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 36.9,
-            "presence_detected": 0,
-            "exterior_temperature": 3.8
-        },
-        "11:00": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 3.8
-        },
-        "11:05": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 4.1
-        },
-        "11:10": {
-            "current_temperature_order": 19,
-            "current_temperature": 20,
-            "current_humidity": 37.3,
-            "presence_detected": 0,
-            "exterior_temperature": 4.1
-        },
-        "11:15": {
-            "current_temperature_order": 19,
-            "current_temperature": 20,
-            "current_humidity": 37.3,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "11:20": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 37.5,
-            "presence_detected": 1,
-            "exterior_temperature": 4.5
-        },
-        "11:25": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 37.4,
-            "presence_detected": 1,
-            "exterior_temperature": 4.9
-        },
-        "11:30": {
-            "current_temperature_order": 19,
-            "current_temperature": 20,
-            "current_humidity": 37.9,
-            "presence_detected": 1,
-            "exterior_temperature": 4.9
-        },
-        "11:35": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 37.9,
-            "presence_detected": 1,
-            "exterior_temperature": 5.2
-        },
-        "11:40": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 37.9,
-            "presence_detected": 1,
-            "exterior_temperature": 5.2
-        },
-        "11:45": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.59,
-            "current_humidity": 38.5,
-            "presence_detected": 1,
-            "exterior_temperature": 5.6
-        },
-        "11:50": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.7,
-            "current_humidity": 38.3,
-            "presence_detected": 1,
-            "exterior_temperature": 5.6
-        },
-        "11:55": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.7,
-            "current_humidity": 38.3,
-            "presence_detected": 1,
-            "exterior_temperature": 5.9
-        },
-        "12:00": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.8,
-            "current_humidity": 38.4,
-            "presence_detected": 1,
-            "exterior_temperature": 5.9
-        },
-        "12:05": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.8,
-            "current_humidity": 38.4,
-            "presence_detected": 1,
-            "exterior_temperature": 6.2
-        },
-        "12:10": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.7,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 6.2
-        },
-        "12:15": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.7,
-            "current_humidity": 38.4,
-            "presence_detected": 1,
-            "exterior_temperature": 6.4
-        },
-        "12:20": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.7,
-            "current_humidity": 38.1,
-            "presence_detected": 1,
-            "exterior_temperature": 6.4
-        },
-        "12:25": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.7,
-            "current_humidity": 38,
-            "presence_detected": 0,
-            "exterior_temperature": 6.6
-        },
-        "12:30": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.7,
-            "current_humidity": 38,
-            "presence_detected": 0,
-            "exterior_temperature": 6.6
-        },
-        "12:35": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.59,
-            "current_humidity": 38.3,
-            "presence_detected": 1,
-            "exterior_temperature": 6.9
-        },
-        "12:40": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.59,
-            "current_humidity": 38.3,
-            "presence_detected": 1,
-            "exterior_temperature": 6.9
-        },
-        "12:45": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 38.4,
-            "presence_detected": 0,
-            "exterior_temperature": 7.1
-        },
-        "12:50": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 38.4,
-            "presence_detected": 0,
-            "exterior_temperature": 7.1
-        },
-        "12:55": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 38.4,
-            "presence_detected": 0,
-            "exterior_temperature": 7.4
-        },
-        "13:00": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 38.7,
-            "presence_detected": 0,
-            "exterior_temperature": 7.4
-        },
-        "13:05": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 38.2,
-            "presence_detected": 0,
-            "exterior_temperature": 7.6
-        },
-        "13:10": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 38.2,
-            "presence_detected": 0,
-            "exterior_temperature": 7.6
-        },
-        "13:15": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 38.5,
-            "presence_detected": 0,
-            "exterior_temperature": 7.7
-        },
-        "13:20": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.4,
-            "current_humidity": 38.5,
-            "presence_detected": 1,
-            "exterior_temperature": 7.7
-        },
-        "13:25": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.3,
-            "current_humidity": 38.7,
-            "presence_detected": 1,
-            "exterior_temperature": 7.9
-        },
-        "13:30": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.3,
-            "current_humidity": 38.7,
-            "presence_detected": 1,
-            "exterior_temperature": 7.9
-        },
-        "13:35": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
-            "current_humidity": 38.6,
-            "presence_detected": 1,
-            "exterior_temperature": 8
-        },
-        "13:40": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.5,
+            "current_temperature_order": 18,
+            "current_temperature": 19,
             "current_humidity": 38.9,
             "presence_detected": 1,
-            "exterior_temperature": 8
+            "exterior_temperature": 9.4
+        },
+        "11:00": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.9,
+            "current_humidity": 38.9,
+            "presence_detected": 1,
+            "exterior_temperature": 9.4
+        },
+        "11:05": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.9,
+            "current_humidity": 39.2,
+            "presence_detected": 0,
+            "exterior_temperature": 9.7
+        },
+        "11:10": {
+            "current_temperature_order": 18,
+            "current_temperature": 19,
+            "current_humidity": 39.3,
+            "presence_detected": 0,
+            "exterior_temperature": 9.7
+        },
+        "11:15": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.9,
+            "current_humidity": 39.4,
+            "presence_detected": 0,
+            "exterior_temperature": 9.8
+        },
+        "11:20": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.9,
+            "current_humidity": 39.6,
+            "presence_detected": 1,
+            "exterior_temperature": 9.8
+        },
+        "11:25": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.9,
+            "current_humidity": 39.5,
+            "presence_detected": 1,
+            "exterior_temperature": 10
+        },
+        "11:30": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.9,
+            "current_humidity": 39.5,
+            "presence_detected": 1,
+            "exterior_temperature": 10
+        },
+        "11:35": {
+            "current_temperature_order": 18,
+            "current_temperature": 19,
+            "current_humidity": 39.6,
+            "presence_detected": 1,
+            "exterior_temperature": 10.1
+        },
+        "11:40": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 39.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.1
+        },
+        "11:45": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 39.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.1
+        },
+        "11:50": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.9,
+            "current_humidity": 39.9,
+            "presence_detected": 0,
+            "exterior_temperature": 10.1
+        },
+        "11:55": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.9,
+            "current_humidity": 39.9,
+            "presence_detected": 0,
+            "exterior_temperature": 10.1
+        },
+        "12:00": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 39.9,
+            "presence_detected": 0,
+            "exterior_temperature": 10.1
+        },
+        "12:05": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 39.9,
+            "presence_detected": 0,
+            "exterior_temperature": 10.1
+        },
+        "12:10": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 39.8,
+            "presence_detected": 0,
+            "exterior_temperature": 10.1
+        },
+        "12:15": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 39.8,
+            "presence_detected": 0,
+            "exterior_temperature": 10.2
+        },
+        "12:20": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 40,
+            "presence_detected": 0,
+            "exterior_temperature": 10.2
+        },
+        "12:25": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 40.3,
+            "presence_detected": 0,
+            "exterior_temperature": 10.4
+        },
+        "12:30": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 40.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.4
+        },
+        "12:35": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 40.5,
+            "presence_detected": 0,
+            "exterior_temperature": 10.6
+        },
+        "12:40": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.7,
+            "current_humidity": 40.3,
+            "presence_detected": 0,
+            "exterior_temperature": 10.6
+        },
+        "12:45": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.7,
+            "current_humidity": 40.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.7
+        },
+        "12:50": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 40.2,
+            "presence_detected": 0,
+            "exterior_temperature": 10.7
+        },
+        "12:55": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.8,
+            "current_humidity": 40.2,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
+        },
+        "13:00": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.59,
+            "current_humidity": 40.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
+        },
+        "13:05": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.7,
+            "current_humidity": 40.6,
+            "presence_detected": 0,
+            "exterior_temperature": 10.7
+        },
+        "13:10": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.7,
+            "current_humidity": 40.6,
+            "presence_detected": 0,
+            "exterior_temperature": 10.7
+        },
+        "13:15": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.7,
+            "current_humidity": 40.6,
+            "presence_detected": 0,
+            "exterior_temperature": 10.5
+        },
+        "13:20": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.59,
+            "current_humidity": 40.5,
+            "presence_detected": 0,
+            "exterior_temperature": 10.5
+        },
+        "13:25": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.5,
+            "current_humidity": 40.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.3
+        },
+        "13:30": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.5,
+            "current_humidity": 40.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.3
+        },
+        "13:35": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.5,
+            "current_humidity": 40.8,
+            "presence_detected": 0,
+            "exterior_temperature": 10.3
+        },
+        "13:40": {
+            "current_temperature_order": 18,
+            "current_temperature": 18.59,
+            "current_humidity": 40.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.3
         },
         "13:45": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.59,
-            "current_humidity": 37.9,
-            "presence_detected": 1,
-            "exterior_temperature": 8.2
+            "current_temperature_order": 18,
+            "current_temperature": 18.5,
+            "current_humidity": 40.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.4
         },
         "13:50": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.59,
-            "current_humidity": 37.9,
-            "presence_detected": 1,
-            "exterior_temperature": 8.2
+            "current_temperature_order": 18,
+            "current_temperature": 18.5,
+            "current_humidity": 40.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.4
         },
         "13:55": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.8,
-            "current_humidity": 38,
-            "presence_detected": 1,
-            "exterior_temperature": 8.3
+            "current_temperature_order": 18,
+            "current_temperature": 18.59,
+            "current_humidity": 41,
+            "presence_detected": 0,
+            "exterior_temperature": 10.7
         },
         "14:00": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 38.4,
-            "presence_detected": 1,
-            "exterior_temperature": 8.3
+            "current_temperature_order": 18,
+            "current_temperature": 18.59,
+            "current_humidity": 41,
+            "presence_detected": 0,
+            "exterior_temperature": 10.7
         },
         "14:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 38,
-            "presence_detected": 1,
-            "exterior_temperature": 8.3
+            "current_temperature_order": 18,
+            "current_temperature": 18.59,
+            "current_humidity": 41,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
         },
         "14:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 38,
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
             "presence_detected": 0,
-            "exterior_temperature": 8.3
+            "exterior_temperature": 10.8
         },
         "14:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 38.1,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
         },
         "14:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 19.9,
-            "current_humidity": 38.1,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
         },
         "14:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20,
-            "current_humidity": 38.2,
-            "presence_detected": 1,
-            "exterior_temperature": 8.5
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 40.8,
+            "presence_detected": 0,
+            "exterior_temperature": 11
         },
         "14:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 37.3,
-            "presence_detected": 1,
-            "exterior_temperature": 8.5
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 40.8,
+            "presence_detected": 0,
+            "exterior_temperature": 11
         },
         "14:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 37.3,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 40.9,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
         },
         "14:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 36.9,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41.2,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
         },
         "14:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 36.8,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
         },
         "14:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 34.7,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
         },
         "14:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20,
-            "current_humidity": 36.5,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 40.7,
+            "presence_detected": 0,
+            "exterior_temperature": 11
         },
         "15:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20,
-            "current_humidity": 36.5,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41.1,
+            "presence_detected": 0,
+            "exterior_temperature": 11
         },
         "15:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 37,
+            "current_temperature_order": 18,
+            "current_temperature": 18.3,
+            "current_humidity": 40.9,
             "presence_detected": 0,
-            "exterior_temperature": 8.4
+            "exterior_temperature": 11.1
         },
         "15:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 37,
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 40.9,
             "presence_detected": 0,
-            "exterior_temperature": 8.4
+            "exterior_temperature": 11.1
         },
         "15:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.2,
-            "current_humidity": 37,
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
             "presence_detected": 0,
-            "exterior_temperature": 8.4
+            "exterior_temperature": 11.1
         },
         "15:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.4,
-            "presence_detected": 1,
-            "exterior_temperature": 8.4
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
+            "presence_detected": 0,
+            "exterior_temperature": 11.1
         },
         "15:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.2,
-            "current_humidity": 36.9,
-            "presence_detected": 1,
-            "exterior_temperature": 8.3
+            "current_temperature_order": 18,
+            "current_temperature": 18.5,
+            "current_humidity": 40.9,
+            "presence_detected": 0,
+            "exterior_temperature": 11.1
         },
         "15:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.3,
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
             "presence_detected": 0,
-            "exterior_temperature": 8.3
+            "exterior_temperature": 11.1
         },
         "15:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 37.3,
+            "current_temperature_order": 18,
+            "current_temperature": 18.4,
+            "current_humidity": 41,
             "presence_detected": 0,
-            "exterior_temperature": 8.3
+            "exterior_temperature": 11.1
         },
         "15:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 37.3,
+            "current_temperature_order": 19,
+            "current_temperature": 18.4,
+            "current_humidity": 40.7,
             "presence_detected": 0,
-            "exterior_temperature": 8.3
+            "exterior_temperature": 11.1
         },
         "15:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.2,
-            "current_humidity": 37.3,
+            "current_temperature_order": 19,
+            "current_temperature": 18.4,
+            "current_humidity": 41.1,
             "presence_detected": 0,
-            "exterior_temperature": 8.3
+            "exterior_temperature": 11.1
         },
         "15:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.2,
-            "current_humidity": 37.3,
+            "current_temperature_order": 19,
+            "current_temperature": 18.4,
+            "current_humidity": 40.9,
             "presence_detected": 0,
-            "exterior_temperature": 8.3
+            "exterior_temperature": 11.1
         },
         "15:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 37.3,
+            "current_temperature_order": 19,
+            "current_temperature": 18.3,
+            "current_humidity": 40.8,
             "presence_detected": 0,
-            "exterior_temperature": 8.3
+            "exterior_temperature": 11.1
         },
         "16:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.4,
+            "current_temperature_order": 19,
+            "current_temperature": 18.4,
+            "current_humidity": 40.6,
             "presence_detected": 0,
-            "exterior_temperature": 8.3
+            "exterior_temperature": 11
         },
         "16:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.4,
+            "current_temperature_order": 19,
+            "current_temperature": 18.59,
+            "current_humidity": 40.6,
             "presence_detected": 0,
-            "exterior_temperature": 8.2
+            "exterior_temperature": 11
         },
         "16:10": {
             "current_temperature_order": 19,
-            "current_temperature": 20.4,
-            "current_humidity": 37,
+            "current_temperature": 18.5,
+            "current_humidity": 40.5,
             "presence_detected": 0,
-            "exterior_temperature": 8.2
+            "exterior_temperature": 11
         },
         "16:15": {
             "current_temperature_order": 19,
-            "current_temperature": 20.5,
-            "current_humidity": 37,
+            "current_temperature": 18.5,
+            "current_humidity": 40.5,
             "presence_detected": 0,
-            "exterior_temperature": 8.2
+            "exterior_temperature": 11
         },
         "16:20": {
             "current_temperature_order": 19,
-            "current_temperature": 20.4,
-            "current_humidity": 37.2,
+            "current_temperature": 18.5,
+            "current_humidity": 40.3,
             "presence_detected": 0,
-            "exterior_temperature": 8.2
+            "exterior_temperature": 11
         },
         "16:25": {
             "current_temperature_order": 19,
-            "current_temperature": 20.4,
-            "current_humidity": 37.2,
+            "current_temperature": 18.7,
+            "current_humidity": 40.3,
             "presence_detected": 0,
-            "exterior_temperature": 8.1
+            "exterior_temperature": 11
         },
         "16:30": {
             "current_temperature_order": 19,
-            "current_temperature": 20.3,
-            "current_humidity": 37.6,
+            "current_temperature": 18.7,
+            "current_humidity": 40.3,
             "presence_detected": 0,
-            "exterior_temperature": 8.1
+            "exterior_temperature": 11
         },
         "16:35": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.3,
-            "current_humidity": 37.5,
+            "current_temperature_order": 21,
+            "current_temperature": 18.7,
+            "current_humidity": 40.3,
             "presence_detected": 0,
-            "exterior_temperature": 8.1
+            "exterior_temperature": 11
         },
         "16:40": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.3,
-            "current_humidity": 37.8,
+            "current_temperature_order": 21,
+            "current_temperature": 18.8,
+            "current_humidity": 40.2,
             "presence_detected": 0,
-            "exterior_temperature": 8.1
+            "exterior_temperature": 11
         },
         "16:45": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.3,
-            "current_humidity": 37.8,
+            "current_temperature_order": 21,
+            "current_temperature": 18.9,
+            "current_humidity": 40,
             "presence_detected": 0,
-            "exterior_temperature": 8
+            "exterior_temperature": 11
         },
         "16:50": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.3,
-            "current_humidity": 37.7,
+            "current_temperature_order": 21,
+            "current_temperature": 18.8,
+            "current_humidity": 40.1,
             "presence_detected": 0,
-            "exterior_temperature": 8
+            "exterior_temperature": 11
         },
         "16:55": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.3,
-            "current_humidity": 37.7,
+            "current_temperature_order": 21,
+            "current_temperature": 18.8,
+            "current_humidity": 40.1,
             "presence_detected": 0,
-            "exterior_temperature": 8
+            "exterior_temperature": 11
         },
         "17:00": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.09,
-            "current_humidity": 37.6,
+            "current_temperature_order": 21,
+            "current_temperature": 18.9,
+            "current_humidity": 39.8,
             "presence_detected": 0,
-            "exterior_temperature": 8
+            "exterior_temperature": 11
         },
         "17:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.2,
-            "current_humidity": 38,
+            "current_temperature_order": 21,
+            "current_temperature": 19,
+            "current_humidity": 39.8,
             "presence_detected": 0,
-            "exterior_temperature": 7.8
+            "exterior_temperature": 11
         },
         "17:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.2,
-            "current_humidity": 38,
-            "presence_detected": 0,
-            "exterior_temperature": 7.8
+            "current_temperature_order": 21,
+            "current_temperature": 19,
+            "current_humidity": 39.8,
+            "presence_detected": 1,
+            "exterior_temperature": 11
         },
         "17:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20,
-            "current_humidity": 38.1,
+            "current_temperature_order": 21,
+            "current_temperature": 19.09,
+            "current_humidity": 39.5,
             "presence_detected": 0,
-            "exterior_temperature": 7.7
+            "exterior_temperature": 11
         },
         "17:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 38.1,
+            "current_temperature_order": 21,
+            "current_temperature": 19.09,
+            "current_humidity": 39.5,
             "presence_detected": 0,
-            "exterior_temperature": 7.7
+            "exterior_temperature": 11
         },
         "17:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 37.8,
-            "presence_detected": 0,
-            "exterior_temperature": 7.5
+            "current_temperature_order": 21,
+            "current_temperature": 19,
+            "current_humidity": 39.7,
+            "presence_detected": 1,
+            "exterior_temperature": 11
         },
         "17:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 37.9,
-            "presence_detected": 1,
-            "exterior_temperature": 7.5
+            "current_temperature_order": 21,
+            "current_temperature": 19.09,
+            "current_humidity": 39.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
         },
         "17:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 38,
-            "presence_detected": 1,
-            "exterior_temperature": 7.3
-        },
-        "17:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 38,
-            "presence_detected": 1,
-            "exterior_temperature": 7.3
-        },
-        "17:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 37.8,
-            "presence_detected": 1,
-            "exterior_temperature": 7.1
-        },
-        "17:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.09,
-            "current_humidity": 37.8,
-            "presence_detected": 1,
-            "exterior_temperature": 7.1
-        },
-        "17:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.4,
-            "presence_detected": 0,
-            "exterior_temperature": 7
-        },
-        "18:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.4,
-            "presence_detected": 0,
-            "exterior_temperature": 7
-        },
-        "18:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.4,
-            "presence_detected": 0,
-            "exterior_temperature": 6.8
-        },
-        "18:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 37.3,
-            "presence_detected": 1,
-            "exterior_temperature": 6.8
-        },
-        "18:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 37.3,
-            "presence_detected": 1,
-            "exterior_temperature": 6.7
-        },
-        "18:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 37.1,
-            "presence_detected": 0,
-            "exterior_temperature": 6.7
-        },
-        "18:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 37.3,
-            "presence_detected": 0,
-            "exterior_temperature": 6.6
-        },
-        "18:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 6.6
-        },
-        "18:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 37.2,
-            "presence_detected": 1,
-            "exterior_temperature": 6.6
-        },
-        "18:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.2,
-            "presence_detected": 1,
-            "exterior_temperature": 6.6
-        },
-        "18:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 6.5
-        },
-        "18:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 6.5
-        },
-        "18:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.1,
-            "presence_detected": 0,
-            "exterior_temperature": 6.5
-        },
-        "19:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.1,
-            "presence_detected": 0,
-            "exterior_temperature": 6.5
-        },
-        "19:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.1,
-            "presence_detected": 0,
-            "exterior_temperature": 6.4
-        },
-        "19:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.4,
-            "presence_detected": 1,
-            "exterior_temperature": 6.4
-        },
-        "19:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.4,
-            "presence_detected": 1,
-            "exterior_temperature": 6.4
-        },
-        "19:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 36.9,
-            "presence_detected": 0,
-            "exterior_temperature": 6.4
-        },
-        "19:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 6.3
-        },
-        "19:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 6.3
-        },
-        "19:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.3,
-            "presence_detected": 1,
-            "exterior_temperature": 6.3
-        },
-        "19:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.3,
-            "presence_detected": 1,
-            "exterior_temperature": 6.3
-        },
-        "19:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 37.3,
-            "presence_detected": 1,
-            "exterior_temperature": 6.3
-        },
-        "19:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21,
-            "current_humidity": 37.4,
-            "presence_detected": 1,
-            "exterior_temperature": 6.3
-        },
-        "19:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.8,
-            "current_humidity": 36.8,
-            "presence_detected": 1,
-            "exterior_temperature": 6.2
-        },
-        "20:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.8,
-            "current_humidity": 36.8,
-            "presence_detected": 1,
-            "exterior_temperature": 6.2
-        },
-        "20:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.8,
-            "current_humidity": 36.6,
-            "presence_detected": 0,
-            "exterior_temperature": 6.2
-        },
-        "20:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.8,
-            "current_humidity": 36.6,
-            "presence_detected": 0,
-            "exterior_temperature": 6.2
-        },
-        "20:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 36.8,
-            "presence_detected": 1,
-            "exterior_temperature": 6.2
-        },
-        "20:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 37.6,
-            "presence_detected": 1,
-            "exterior_temperature": 6.2
-        },
-        "20:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 37.6,
-            "presence_detected": 1,
-            "exterior_temperature": 6.2
-        },
-        "20:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 36.9,
-            "presence_detected": 1,
-            "exterior_temperature": 6.1
-        },
-        "20:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 37.4,
-            "presence_detected": 1,
-            "exterior_temperature": 6.1
-        },
-        "20:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 37.4,
-            "presence_detected": 1,
-            "exterior_temperature": 6.1
-        },
-        "20:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 37.2,
-            "presence_detected": 0,
-            "exterior_temperature": 6
-        },
-        "20:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 37.2,
-            "presence_detected": 0,
-            "exterior_temperature": 6
-        },
-        "21:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 37.3,
-            "presence_detected": 0,
-            "exterior_temperature": 5.9
-        },
-        "21:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.4,
-            "presence_detected": 1,
-            "exterior_temperature": 5.9
-        },
-        "21:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.5,
-            "presence_detected": 1,
-            "exterior_temperature": 5.8
-        },
-        "21:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.7,
-            "presence_detected": 1,
-            "exterior_temperature": 5.8
-        },
-        "21:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37.7,
-            "presence_detected": 1,
-            "exterior_temperature": 5.6
-        },
-        "21:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 37.3,
-            "presence_detected": 0,
-            "exterior_temperature": 5.6
-        },
-        "21:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 36.8,
-            "presence_detected": 0,
-            "exterior_temperature": 5.4
-        },
-        "21:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 5.4
-        },
-        "21:40": {
             "current_temperature_order": 21,
-            "current_temperature": 20.3,
-            "current_humidity": 37,
+            "current_temperature": 19.09,
+            "current_humidity": 39.7,
             "presence_detected": 0,
-            "exterior_temperature": 5.2
-        },
-        "21:45": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.3,
-            "current_humidity": 36.5,
-            "presence_detected": 1,
-            "exterior_temperature": 5.2
-        },
-        "21:50": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.3,
-            "current_humidity": 36.7,
-            "presence_detected": 0,
-            "exterior_temperature": 5
-        },
-        "21:55": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.3,
-            "current_humidity": 36.7,
-            "presence_detected": 0,
-            "exterior_temperature": 5
-        },
-        "22:00": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.4,
-            "current_humidity": 36.4,
-            "presence_detected": 0,
-            "exterior_temperature": 4.9
-        },
-        "22:05": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.5,
-            "current_humidity": 36.4,
-            "presence_detected": 0,
-            "exterior_temperature": 4.9
-        },
-        "22:10": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.5,
-            "current_humidity": 36.4,
-            "presence_detected": 0,
-            "exterior_temperature": 4.8
-        },
-        "22:20": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.5,
-            "current_humidity": 36.4,
-            "presence_detected": 0,
-            "exterior_temperature": 4.6
-        },
-        "22:25": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.5,
-            "current_humidity": 36.7,
-            "presence_detected": 0,
-            "exterior_temperature": 4.6
-        },
-        "22:30": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.5,
-            "current_humidity": 36.7,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "22:35": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.4,
-            "current_humidity": 36.7,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "22:40": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.3,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "22:45": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.4,
-            "current_humidity": 37.5,
-            "presence_detected": 1,
-            "exterior_temperature": 4.5
-        },
-        "22:50": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.4,
-            "current_humidity": 37.1,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "22:55": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.4,
-            "current_humidity": 37.1,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "23:00": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.3,
-            "current_humidity": 37,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "23:05": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.3,
-            "current_humidity": 37.8,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "23:10": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.2,
-            "current_humidity": 37.4,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "23:15": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.2,
-            "current_humidity": 37.4,
-            "presence_detected": 0,
-            "exterior_temperature": 4.5
-        },
-        "23:20": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.2,
-            "current_humidity": 37.4,
-            "presence_detected": 0,
-            "exterior_temperature": 4.4
-        },
-        "23:25": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.09,
-            "current_humidity": 37.8,
-            "presence_detected": 0,
-            "exterior_temperature": 4.4
-        },
-        "23:30": {
-            "current_temperature_order": 19,
-            "current_temperature": 20.09,
-            "current_humidity": 37.8,
-            "presence_detected": 0,
-            "exterior_temperature": 4.3
-        },
-        "23:35": {
-            "current_temperature_order": 19,
-            "current_temperature": 20,
-            "current_humidity": 38,
-            "presence_detected": 0,
-            "exterior_temperature": 4.3
-        },
-        "23:40": {
-            "current_temperature_order": 19,
-            "current_temperature": 20,
-            "current_humidity": 38,
-            "presence_detected": 0,
-            "exterior_temperature": 4.3
-        },
-        "23:45": {
-            "current_temperature_order": 19,
-            "current_temperature": 20,
-            "current_humidity": 38,
-            "presence_detected": 0,
-            "exterior_temperature": 4.3
-        },
-        "23:50": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 38.2,
-            "presence_detected": 0,
-            "exterior_temperature": 4.1
-        },
-        "23:55": {
-            "current_temperature_order": 19,
-            "current_temperature": 19.9,
-            "current_humidity": 38.2,
-            "presence_detected": 0,
-            "exterior_temperature": 4.1
-        }
-    },
-    "25.11.2017": {
-        "17:30": {
-            "current_temperature_order": 21,
-            "current_temperature": 19.8,
-            "current_humidity": 40.4,
-            "presence_detected": 1,
-            "exterior_temperature": 7.6
+            "exterior_temperature": 10.9
         },
         "17:40": {
             "current_temperature_order": 21,
-            "current_temperature": 19.8,
-            "current_humidity": 40.4,
-            "presence_detected": 1,
-            "exterior_temperature": 7.6
+            "current_temperature": 19.2,
+            "current_humidity": 39.7,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
         },
         "17:45": {
             "current_temperature_order": 21,
-            "current_temperature": 19.8,
-            "current_humidity": 40.4,
-            "presence_detected": 1,
-            "exterior_temperature": 7.4
-        },
-        "17:50": {
-            "current_temperature_order": 21,
-            "current_temperature": 20,
-            "current_humidity": 40.7,
-            "presence_detected": 1,
-            "exterior_temperature": 7.4
-        },
-        "17:55": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.09,
-            "current_humidity": 40.4,
-            "presence_detected": 1,
-            "exterior_temperature": 7.2
-        },
-        "18:00": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.09,
-            "current_humidity": 40.3,
-            "presence_detected": 1,
-            "exterior_temperature": 7.2
-        },
-        "18:05": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.2,
-            "current_humidity": 40.2,
-            "presence_detected": 1,
-            "exterior_temperature": 7
-        },
-        "18:10": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.2,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 7
-        },
-        "18:15": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.3,
-            "current_humidity": 40.4,
-            "presence_detected": 0,
-            "exterior_temperature": 6.9
-        },
-        "18:20": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.3,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 6.9
-        },
-        "18:25": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.3,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 6.7
-        },
-        "18:30": {
-            "current_temperature_order": 21,
-            "current_temperature": 20.3,
-            "current_humidity": 40.4,
-            "presence_detected": 0,
-            "exterior_temperature": 6.7
-        },
-        "18:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 6.6
-        },
-        "18:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 6.6
-        },
-        "18:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 6.6
-        },
-        "18:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 39.6,
-            "presence_detected": 0,
-            "exterior_temperature": 6.4
-        },
-        "18:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 39.6,
-            "presence_detected": 0,
-            "exterior_temperature": 6.4
-        },
-        "19:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 6.3
-        },
-        "19:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 6.3
-        },
-        "19:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 6.2
-        },
-        "19:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 6.2
-        },
-        "19:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 39.8,
-            "presence_detected": 0,
-            "exterior_temperature": 6.1
-        },
-        "19:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 6.1
-        },
-        "19:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
+            "current_temperature": 19.2,
             "current_humidity": 39.4,
-            "presence_detected": 1,
-            "exterior_temperature": 5.9
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
         },
-        "19:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 39.7,
-            "presence_detected": 1,
-            "exterior_temperature": 5.9
+        "17:50": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.2,
+            "current_humidity": 39.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
         },
-        "19:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.8,
-            "current_humidity": 39.7,
-            "presence_detected": 1,
-            "exterior_temperature": 5.7
+        "17:55": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.2,
+            "current_humidity": 39.3,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
         },
-        "19:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21,
-            "current_humidity": 39,
-            "presence_detected": 1,
-            "exterior_temperature": 5.7
-        },
-        "19:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.09,
-            "current_humidity": 38.8,
-            "presence_detected": 1,
-            "exterior_temperature": 5.6
-        },
-        "19:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.09,
-            "current_humidity": 38.8,
-            "presence_detected": 1,
-            "exterior_temperature": 5.6
-        },
-        "20:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.2,
-            "current_humidity": 38.6,
-            "presence_detected": 1,
-            "exterior_temperature": 5.4
-        },
-        "20:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.2,
-            "current_humidity": 38.6,
-            "presence_detected": 1,
-            "exterior_temperature": 5.4
-        },
-        "20:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.3,
+        "18:00": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.2,
             "current_humidity": 39.5,
-            "presence_detected": 1,
-            "exterior_temperature": 5.2
-        },
-        "20:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.2,
-            "current_humidity": 38.9,
-            "presence_detected": 1,
-            "exterior_temperature": 5.2
-        },
-        "20:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.2,
-            "current_humidity": 38.9,
-            "presence_detected": 1,
-            "exterior_temperature": 5
-        },
-        "20:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.3,
-            "current_humidity": 38.6,
             "presence_detected": 0,
-            "exterior_temperature": 5
+            "exterior_temperature": 10.9
         },
-        "20:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.09,
-            "current_humidity": 38.7,
+        "18:05": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.2,
+            "current_humidity": 39.4,
             "presence_detected": 0,
-            "exterior_temperature": 4.8
+            "exterior_temperature": 10.9
         },
-        "20:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21.09,
-            "current_humidity": 38.7,
-            "presence_detected": 0,
-            "exterior_temperature": 4.8
-        },
-        "20:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 21,
+        "18:10": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.3,
             "current_humidity": 39.1,
             "presence_detected": 1,
-            "exterior_temperature": 4.7
+            "exterior_temperature": 10.9
+        },
+        "18:15": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.4,
+            "current_humidity": 39.2,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "18:20": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.4,
+            "current_humidity": 39,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "18:25": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.4,
+            "current_humidity": 39.1,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "18:30": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.4,
+            "current_humidity": 39.1,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
+        },
+        "18:35": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.5,
+            "current_humidity": 39.7,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "18:40": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.5,
+            "current_humidity": 38.8,
+            "presence_detected": 1,
+            "exterior_temperature": 10.9
+        },
+        "18:45": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.7,
+            "current_humidity": 38.8,
+            "presence_detected": 1,
+            "exterior_temperature": 10.9
+        },
+        "18:50": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.7,
+            "current_humidity": 38.8,
+            "presence_detected": 1,
+            "exterior_temperature": 10.9
+        },
+        "18:55": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.7,
+            "current_humidity": 38.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "19:00": {
+            "current_temperature_order": 21,
+            "current_temperature": 19.7,
+            "current_humidity": 38.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "19:05": {
+            "current_temperature_order": 21,
+            "current_temperature": 20.09,
+            "current_humidity": 38.4,
+            "presence_detected": 1,
+            "exterior_temperature": 10.9
+        },
+        "19:10": {
+            "current_temperature_order": 21,
+            "current_temperature": 20.09,
+            "current_humidity": 38.4,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "19:15": {
+            "current_temperature_order": 21,
+            "current_temperature": 20.09,
+            "current_humidity": 37.6,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "19:20": {
+            "current_temperature_order": 21,
+            "current_temperature": 20.09,
+            "current_humidity": 37.8,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "19:25": {
+            "current_temperature_order": 21,
+            "current_temperature": 20.3,
+            "current_humidity": 37.3,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "19:30": {
+            "current_temperature_order": 21,
+            "current_temperature": 20.5,
+            "current_humidity": 37.7,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "19:35": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.5,
+            "current_humidity": 37.3,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
+        },
+        "19:40": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.5,
+            "current_humidity": 37.6,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "19:45": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.5,
+            "current_humidity": 37.6,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "19:50": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.5,
+            "current_humidity": 37.6,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "19:55": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.59,
+            "current_humidity": 37.5,
+            "presence_detected": 1,
+            "exterior_temperature": 10.8
+        },
+        "20:00": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.59,
+            "current_humidity": 37.7,
+            "presence_detected": 1,
+            "exterior_temperature": 10.6
+        },
+        "20:05": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.4,
+            "current_humidity": 37.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.6
+        },
+        "20:10": {
+            "current_temperature_order": 20,
+            "current_temperature": 19.8,
+            "current_humidity": 38.5,
+            "presence_detected": 1,
+            "exterior_temperature": 10.5
+        },
+        "20:15": {
+            "current_temperature_order": 20,
+            "current_temperature": 19.8,
+            "current_humidity": 38.9,
+            "presence_detected": 0,
+            "exterior_temperature": 10.5
+        },
+        "20:20": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.3,
+            "presence_detected": 1,
+            "exterior_temperature": 10.5
+        },
+        "20:25": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.4,
+            "presence_detected": 1,
+            "exterior_temperature": 10.5
+        },
+        "20:30": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.4,
+            "presence_detected": 1,
+            "exterior_temperature": 10.6
+        },
+        "20:35": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.2,
+            "presence_detected": 0,
+            "exterior_temperature": 10.6
+        },
+        "20:40": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.2,
+            "current_humidity": 39.1,
+            "presence_detected": 0,
+            "exterior_temperature": 10.7
         },
         "20:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.9,
-            "current_humidity": 39.2,
+            "current_temperature_order": 20,
+            "current_temperature": 20.2,
+            "current_humidity": 38.7,
             "presence_detected": 0,
-            "exterior_temperature": 4.7
+            "exterior_temperature": 10.7
         },
         "20:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.9,
-            "current_humidity": 39.2,
+            "current_temperature_order": 20,
+            "current_temperature": 20.2,
+            "current_humidity": 38.7,
             "presence_detected": 0,
-            "exterior_temperature": 4.5
+            "exterior_temperature": 10.8
         },
         "20:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.8,
-            "current_humidity": 39.5,
+            "current_temperature_order": 20,
+            "current_temperature": 20.2,
+            "current_humidity": 38.6,
             "presence_detected": 0,
-            "exterior_temperature": 4.5
+            "exterior_temperature": 10.8
         },
         "21:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.8,
-            "current_humidity": 39.5,
+            "current_temperature_order": 20,
+            "current_temperature": 20.2,
+            "current_humidity": 38.5,
             "presence_detected": 0,
-            "exterior_temperature": 4.3
+            "exterior_temperature": 10.7
         },
         "21:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 39.7,
+            "current_temperature_order": 20,
+            "current_temperature": 20.4,
+            "current_humidity": 38.7,
             "presence_detected": 0,
-            "exterior_temperature": 4.3
+            "exterior_temperature": 10.7
         },
         "21:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 39.7,
-            "presence_detected": 1,
-            "exterior_temperature": 4.2
+            "current_temperature_order": 20,
+            "current_temperature": 20.3,
+            "current_humidity": 38.5,
+            "presence_detected": 0,
+            "exterior_temperature": 10.6
         },
         "21:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 39.8,
+            "current_temperature_order": 20,
+            "current_temperature": 20.3,
+            "current_humidity": 38.6,
             "presence_detected": 0,
-            "exterior_temperature": 4.2
+            "exterior_temperature": 10.6
         },
         "21:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.7,
-            "current_humidity": 39.8,
+            "current_temperature_order": 20,
+            "current_temperature": 20.3,
+            "current_humidity": 38.6,
             "presence_detected": 0,
-            "exterior_temperature": 4.1
+            "exterior_temperature": 10.7
         },
         "21:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 39.9,
+            "current_temperature_order": 20,
+            "current_temperature": 20.3,
+            "current_humidity": 38.8,
             "presence_detected": 0,
-            "exterior_temperature": 4.1
+            "exterior_temperature": 10.7
         },
         "21:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 39.9,
+            "current_temperature_order": 20,
+            "current_temperature": 20.4,
+            "current_humidity": 38.9,
             "presence_detected": 0,
-            "exterior_temperature": 4
+            "exterior_temperature": 10.7
         },
         "21:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 39.8,
+            "current_temperature_order": 20,
+            "current_temperature": 20.4,
+            "current_humidity": 38.9,
             "presence_detected": 0,
-            "exterior_temperature": 4
+            "exterior_temperature": 10.7
         },
         "21:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 40,
-            "presence_detected": 1,
-            "exterior_temperature": 3.8
+            "current_temperature_order": 20,
+            "current_temperature": 20.3,
+            "current_humidity": 39.2,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
         },
         "21:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 3.8
-        },
-        "21:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 3.7
-        },
-        "22:05": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 40.1,
-            "presence_detected": 0,
-            "exterior_temperature": 3.6
-        },
-        "22:10": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 3.5
-        },
-        "22:15": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 3.5
-        },
-        "22:20": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 40.3,
-            "presence_detected": 0,
-            "exterior_temperature": 3.4
-        },
-        "22:25": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 3.4
-        },
-        "22:30": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.3,
-            "current_humidity": 40.2,
-            "presence_detected": 0,
-            "exterior_temperature": 3.3
-        },
-        "22:35": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 40.1,
-            "presence_detected": 1,
-            "exterior_temperature": 3.3
-        },
-        "22:40": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 40.1,
-            "presence_detected": 1,
-            "exterior_temperature": 3.2
-        },
-        "22:45": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.4,
-            "current_humidity": 40.1,
-            "presence_detected": 1,
-            "exterior_temperature": 3.2
-        },
-        "22:50": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 39.9,
-            "presence_detected": 0,
-            "exterior_temperature": 3.1
-        },
-        "22:55": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.5,
-            "current_humidity": 39.5,
-            "presence_detected": 0,
-            "exterior_temperature": 3.1
-        },
-        "23:00": {
-            "current_temperature_order": 20.5,
-            "current_temperature": 20.59,
-            "current_humidity": 39.3,
-            "presence_detected": 0,
-            "exterior_temperature": 2.9
-        },
-        "23:05": {
             "current_temperature_order": 20,
-            "current_temperature": 20.59,
+            "current_temperature": 20.3,
             "current_humidity": 39.4,
             "presence_detected": 0,
-            "exterior_temperature": 2.9
+            "exterior_temperature": 10.8
+        },
+        "21:50": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.2,
+            "current_humidity": 39.2,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
+        },
+        "21:55": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.2,
+            "current_humidity": 39.5,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
+        },
+        "22:00": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.09,
+            "current_humidity": 39.5,
+            "presence_detected": 1,
+            "exterior_temperature": 10.9
+        },
+        "22:05": {
+            "current_temperature_order": 20,
+            "current_temperature": 20.09,
+            "current_humidity": 39.1,
+            "presence_detected": 1,
+            "exterior_temperature": 10.9
+        },
+        "22:10": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.3,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "22:15": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.3,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "22:20": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.3,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "22:25": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.5,
+            "presence_detected": 0,
+            "exterior_temperature": 10.9
+        },
+        "22:30": {
+            "current_temperature_order": 20,
+            "current_temperature": 19.9,
+            "current_humidity": 39.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
+        },
+        "22:35": {
+            "current_temperature_order": 20,
+            "current_temperature": 19.9,
+            "current_humidity": 39.4,
+            "presence_detected": 0,
+            "exterior_temperature": 10.8
+        },
+        "22:40": {
+            "current_temperature_order": 20,
+            "current_temperature": 19.8,
+            "current_humidity": 39.6,
+            "presence_detected": 1,
+            "exterior_temperature": 10.9
+        },
+        "22:45": {
+            "current_temperature_order": 20,
+            "current_temperature": 19.9,
+            "current_humidity": 39.9,
+            "presence_detected": 1,
+            "exterior_temperature": 10.9
+        },
+        "22:50": {
+            "current_temperature_order": 20,
+            "current_temperature": 19.9,
+            "current_humidity": 39.9,
+            "presence_detected": 1,
+            "exterior_temperature": 11
+        },
+        "22:55": {
+            "current_temperature_order": 20,
+            "current_temperature": 19.8,
+            "current_humidity": 40.1,
+            "presence_detected": 1,
+            "exterior_temperature": 11
+        },
+        "23:00": {
+            "current_temperature_order": 20,
+            "current_temperature": 20,
+            "current_humidity": 39.9,
+            "presence_detected": 0,
+            "exterior_temperature": 11
+        },
+        "23:05": {
+            "current_temperature_order": 19,
+            "current_temperature": 20,
+            "current_humidity": 39.8,
+            "presence_detected": 0,
+            "exterior_temperature": 11
         },
         "23:10": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.59,
-            "current_humidity": 39.3,
+            "current_temperature_order": 19,
+            "current_temperature": 20,
+            "current_humidity": 39.8,
             "presence_detected": 0,
-            "exterior_temperature": 2.8
+            "exterior_temperature": 11
         },
         "23:15": {
-            "current_temperature_order": null,
-            "current_temperature": null,
-            "current_humidity": 39.3,
+            "current_temperature_order": 19,
+            "current_temperature": 20,
+            "current_humidity": 39.8,
             "presence_detected": 0,
-            "exterior_temperature": 2.8
+            "exterior_temperature": 11
         },
         "23:20": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.59,
-            "current_humidity": 39.3,
+            "current_temperature_order": 19,
+            "current_temperature": 20,
+            "current_humidity": 39.8,
             "presence_detected": 0,
-            "exterior_temperature": 2.7
+            "exterior_temperature": 11.1
         },
         "23:25": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.59,
-            "current_humidity": 39.3,
+            "current_temperature_order": 19,
+            "current_temperature": 20,
+            "current_humidity": 40,
             "presence_detected": 0,
-            "exterior_temperature": 2.7
+            "exterior_temperature": 11.1
         },
         "23:30": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.59,
-            "current_humidity": 39.3,
+            "current_temperature_order": 19,
+            "current_temperature": 20,
+            "current_humidity": 40,
             "presence_detected": 0,
-            "exterior_temperature": 2.7
+            "exterior_temperature": 11.1
         },
         "23:35": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.59,
-            "current_humidity": 39.3,
+            "current_temperature_order": 19,
+            "current_temperature": 19.8,
+            "current_humidity": 39.9,
             "presence_detected": 0,
-            "exterior_temperature": 2.7
+            "exterior_temperature": 11.1
         },
         "23:40": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.59,
-            "current_humidity": 39.3,
+            "current_temperature_order": 19,
+            "current_temperature": 19.8,
+            "current_humidity": 39.9,
             "presence_detected": 0,
-            "exterior_temperature": 2.6
+            "exterior_temperature": 11.2
         },
         "23:45": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.59,
-            "current_humidity": 39.3,
+            "current_temperature_order": 19,
+            "current_temperature": 19.8,
+            "current_humidity": 39.9,
             "presence_detected": 0,
-            "exterior_temperature": 2.6
+            "exterior_temperature": 11.2
         },
         "23:50": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.5,
-            "current_humidity": 39.7,
+            "current_temperature_order": 19,
+            "current_temperature": 19.9,
+            "current_humidity": 40.2,
             "presence_detected": 0,
-            "exterior_temperature": 2.6
+            "exterior_temperature": 11.2
         },
         "23:55": {
-            "current_temperature_order": 20,
-            "current_temperature": 20.5,
-            "current_humidity": 39.7,
+            "current_temperature_order": 19,
+            "current_temperature": 19.9,
+            "current_humidity": 40.2,
             "presence_detected": 0,
-            "exterior_temperature": 2.6
+            "exterior_temperature": 11.2
         }
     }
 }
