@@ -212,6 +212,13 @@
                 plotDatas[keys[i]] = jsonDatas[keys[i]]
             }
         }
+        else
+        {
+            parts = showDay.split('.')
+            d = new Date(parts[2], parts[1]-1, parts[0]);
+            weekdays = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
+            fullDay = weekdays[d.getDay()];
+        }
 
         for (day in plotDatas)
         {
@@ -389,9 +396,10 @@
         rangeMax = tmpMax
         if (orderMax > tmpMax) rangeMax = orderMax
         rangeMin = 0
+        if (tmpMin < 0) rangeMin = tmpMin - 4
 
         title = 'Qivivo Daily Overview'
-        if (showDay != null) title += ' | ' + showDay
+        if (showDay != null) title += ' | ' + fullDay + " " + showDay
 
         layout = {
                 title: title,
@@ -423,7 +431,6 @@
                         pad: 1
                       }
                 };
-
         Plotly.newPlot(graphQivivo, data, layout);
     };
 </script>
