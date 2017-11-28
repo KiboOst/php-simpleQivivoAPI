@@ -25,13 +25,15 @@
             font-size: 10pt !important;
             line-height: 10pt;
         }
-
         section {
             height: 45%;
             width: 100%;
         }
         body {
             max-width: 100%;
+        }
+        .center{
+            text-align: center;
         }
     </style>
 
@@ -90,7 +92,7 @@
         <div id="graphQivivo">
         </div>
 
-        <div id="dayDatas">
+        <div id="dayDatas" class="center">
         </div>
     </div>
 </section>
@@ -232,14 +234,12 @@
             for (time in plotDatas[day])
             {
                 //formating:
+                value = time
                 if (showDay == null)
                 {
-                    xAxisValues.push(time +' /'+day)
+                    value = time + ' /' + day
                 }
-                else
-                {
-                    xAxisValues.push(time)
-                }
+                xAxisValues.push(value)
 
                 //is heating or not
                 heating = 0
@@ -311,7 +311,6 @@
                         width: 1
                       },
                 hoverinfo: 'text',
-
                 connectgaps: true
             };
         data.push(trace)
@@ -425,12 +424,12 @@
 
         layout = {
                 title: title,
-                autosize: true,
                 height: window.innerHeight-90,
                 width: window.innerWidth-40,
                 xaxis: {
+                        zeroline: true,
                         showgrid: false,
-                        ticklen: 7,
+                        ticklen: 9,
                         tickmode: 'linear',
                         tick0: 0,
                         dtick: 12
@@ -443,16 +442,21 @@
                         },
                 showlegend: true,
                 legend: {
-                        orientation: 'h'
+                        orientation: "h",
+                        xanchor: 'center',
+                        x: 0.5,
+                        yanchor: 'top',
+                        y: 1.01
                         },
                 margin: {
-                        l: 60,
+                        l: 40,
                         r: 30,
-                        b: 60,
-                        t: 35,
-                        pad: 1
+                        b: 130,
+                        t: 30,
+                        pad: 0
                       }
                 };
+        if (showDay != null) layout.margin.b = 55
         Plotly.newPlot(graphQivivo, data, layout);
     };
 </script>
