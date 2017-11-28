@@ -310,7 +310,7 @@
                         shape: 'hv',
                         width: 1
                       },
-                hoverinfo: 'text',
+                hoverinfo: 'x+text',
                 connectgaps: true
             };
         data.push(trace)
@@ -330,7 +330,7 @@
                         shape: 'hv',
                         width: 2
                       },
-                hoverinfo: 'text',
+                hoverinfo: 'x+text',
                 connectgaps: true
             };
         data.push(trace)
@@ -380,7 +380,7 @@
                 opacity: 0.45,
                 connectgaps: true,
                 text: [],
-                hoverinfo: 'text+name'
+                hoverinfo: 'x+text+name'
             };
         for (N = 0; N < trace.y.length; N += 1) {
           trace.text.push(Math.round(trace.y[N] * 10, 2) + ' %');
