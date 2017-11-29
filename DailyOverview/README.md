@@ -66,7 +66,7 @@ Don't touch the rest of the file.
     var logDelta = 5 //number of minutes between logs
     var tracePID = 0 //debug, if 1 will show PID
     var P_factor = 20
-    var I_factor = 0.022
+    var I_factor = 0.0108
     var D_factor = 1.6
 </script>
 ```
