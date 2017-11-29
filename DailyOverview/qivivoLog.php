@@ -1,23 +1,15 @@
 <?php
-/*
-
-http://www.nicolasgenette.com/_smarthome/_crontasks/qivivoLog.php
-
-Cron task from Synology every 5mins
-
-*/
 
 require($_SERVER['DOCUMENT_ROOT'].'/path/to/splQivivoAPI.php'); //Qivivo SDK API
 $logfilePath = $_SERVER['DOCUMENT_ROOT'].'/path/to/qivivoLog.json';
-$logMaxDays = 2;
+$logMaxDays = 90;
 
 $_qivivo = new splQivivoAPI($clienID, $secretID);
-if (isset($_qivivo->error)) die($_qivivo->error);
 
 //LOGGING:
 $log = qiLog();
 
-function qiLog($filePath='/') //@log file path | always @return['result'] array of yesterday total consumptions, @return['error'] if can't write file
+function qiLog($filePath='/')
 {
 	global $_qivivo;
     global $logfilePath;
@@ -36,26 +28,38 @@ function qiLog($filePath='/') //@log file path | always @return['result'] array 
     $today = date('d.m.Y');
     $nowTime = date('H:i');
 
-    //Qivivo data:
-    $thermostatTemperature = $_qivivo->getThermostatTemperature();
-    $current_temperature_order = $thermostatTemperature['current_temperature_order'];
-    $current_temperature = $thermostatTemperature['temperature'];
-    $thermostatHumidity = $_qivivo->getThermostatHumidity();
-    $current_humidity = $thermostatHumidity['humidity'];
+    //if Qivivo servers are online:
+    if (!isset($_qivivo->error))
+    {
+        //Qivivo data:
+        $thermostatTemperature = $_qivivo->getThermostatTemperature();
+        $current_temperature_order = $thermostatTemperature['current_temperature_order'];
+        $current_temperature = $thermostatTemperature['temperature'];
+        $thermostatHumidity = $_qivivo->getThermostatHumidity();
+        $current_humidity = $thermostatHumidity['humidity'];
 
-    $thermostatPresence = $_qivivo->getThermostatPresence();
-    $var = $thermostatPresence['presence_detected'];
-    $presence_detected = 0;
-    if ($var == true) $presence_detected = 1;
+        $thermostatPresence = $_qivivo->getThermostatPresence();
+        $var = $thermostatPresence['presence_detected'];
+        $presence_detected = 0;
+        if ($var == true) $presence_detected = 1;
 
-    //log all these:
-    $prevDatas[$today][$nowTime] = array(
+        //log all these:
+        $prevDatas[$today][$nowTime] = array(
                                         'current_temperature_order' => $current_temperature_order,
                                         'current_temperature' => $current_temperature,
                                         'current_humidity' => $current_humidity,
                                         'presence_detected' => $presence_detected,
                                         'exterior_temperature' => $exterior_temperature
                                         );
+    }
+    else
+    {
+        if (isset($prevDatas[$today]))
+        {
+            $prevTime = end($prevDatas[$today]);
+            $prevDatas[$today][$nowTime] = $prevTime;
+        }
+    }
 
     //set recent up:
     $keys = array_keys($prevDatas);
