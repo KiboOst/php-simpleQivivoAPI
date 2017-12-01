@@ -4,8 +4,9 @@
 
     var logDelta = 5 //number of minutes between logs
     var tracePID = 0 //debug, if 1 will show PID
+    
     var P_factor = 20
-    var I_factor = 0.0108
+    var I_factor = 0.011
     var D_factor = 1.6
 </script>
 <head>
@@ -109,9 +110,10 @@
             //show it first as today:
             today = new Date()
             day = today.getDate()
+            day = ("0" + today.getDate()).slice(-2)
             month = today.getMonth()+1
+            month = ("0" + (today.getMonth() + 1)).slice(-2)
             year = today.getFullYear()
-
             drawGraph(day+'.'+month+'.'+year)
         });
 </script>
@@ -230,7 +232,7 @@
             if (showDay != null && showDay != day) continue;
 
             sumI = 0
-            PrevE = -1
+            PrevE = 0
             for (time in plotDatas[day])
             {
                 //formating:
@@ -245,9 +247,11 @@
                 heating = 0
                 currentT = plotDatas[day][time]['current_temperature']
                 currentC = plotDatas[day][time]['current_temperature_order']
-
                 E = currentC - currentT
-                pid = (E * P_factor + ((E - PrevE) * D_factor) + (sumI * I_factor))
+                avgE = (E+PrevE) / 2
+                
+                //compute PID:
+                pid = (E * P_factor + ((E - avgE) * D_factor) + (sumI * I_factor))
                 pid = pid / 10
                 if (tracePID==1) pids.push(pid)
 
