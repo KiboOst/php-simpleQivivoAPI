@@ -9,7 +9,7 @@ Anyway, such feedback is really important to adapt your programs regarding inert
 Here is a how-to to get your Daily Overview, with full interactivity over the graph (hide some data, zoom, etc.)!
 
 <p align="center">
-  <img src="DailyOverview.jpg">
+  <img src="DailyOverview_0.3.jpg">
 </p>
 
 *Note: Qivivo API doesn't report sun conditions. You can customize files to report it on your own if you want.*
