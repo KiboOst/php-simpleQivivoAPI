@@ -12,21 +12,19 @@ Here is a how-to to get your Daily Overview, with full interactivity over the gr
   <img src="DailyOverview.jpg">
 </p>
 
-*On this screen, exterior temperature is reported by Netatmo exterior module. See [SimpleNetatmo](https://github.com/KiboOst/php-simpleNetatmoAPI) if you have such module, as Qivivo API doesn't report it.*
-
 *Note: Qivivo API doesn't report sun conditions. You can customize files to report it on your own if you want.*
 
 ## Disclaimer
 - The Qivivo API doesn't provide information regarding heating or not.</br>
-Heating is computed from order and temperature evolution, with PID formula. This is the default Qivivo behavior, so it may not be reliable if you asked Qivivo to set your thermostat in hysteresis mode (you can even ask them to change delta value for hysteresis). I could easily do an hysteresis mode with custom delta if needed...
+Heating is computed from order and temperature evolution, and is reliable most of the time, but sometimes not due to long Qivivo server delays.
 - Even if you are in multizone mode, this graph show only thermostat zone. Other zones works with wire order to radiators, and Qivivo has no way to know if a radiator is heating or not, being regulated by its own radiator thermostat.
 
 
 ## Requirements
 - [php-simpleQivivoAPI ready to run](https://github.com/KiboOst/php-simpleQivivoAPI)
-- qivivoLog.php
-- QivivoLog.html
-- Display is supported thanks to [jQuery](https://jquery.com/) and [plotly](https://plot.ly/), both linked from their CDN (nothing to install/download)
+- qivivoLog.php: this file will log your data.
+- QivivoLog.html: this file will show the data graph.</br>
+*Display is supported thanks to [jQuery](https://jquery.com/) and [plotly](https://plot.ly/), both linked from their CDN (nothing to install/download)*
 
 qivivoLog.json is an example provided to test your setup. Of course you will need your own logs :wink:
 
@@ -44,8 +42,8 @@ $logfilePath = $_SERVER['DOCUMENT_ROOT'].'/path/to/qivivoLog.json';
 $logMaxDays = 90;
 
 $_qivivo = new splQivivoAPI($clienID, $secretID);
-if (isset($_qivivo->error)) die($_qivivo->error);
 
+//LOGGING:
 ```
 
 Don't touch the rest of the file.
@@ -56,7 +54,6 @@ Don't touch the rest of the file.
 
 - Download QivivoLog.html on your server
 - Edit QivivoLog.html according to your log path:
-- *Note: If you want, you can show PID regulation curve in the graph by setting tracePID to 1. If you know what you are doing, you can also adjust PID factors value here.*
 
 ```html
 <!doctype html>
@@ -64,10 +61,8 @@ Don't touch the rest of the file.
     var qivivoLogPath = "qivivoLog.json"
 
     var logDelta = 5 //number of minutes between logs
-    var tracePID = 0 //debug, if 1 will show PID
-    var P_factor = 20
-    var I_factor = 0.0108
-    var D_factor = 1.6
+    var completeDay = 1 //show entire day for current not complete day
+    var weekdays = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'] //translate them if needed
 </script>
 ```
 
@@ -78,6 +73,11 @@ Don't touch the rest of the file.
 - Simply load this page in a browser when you have some logs!
 
 ## Version history
+
+#### v0.3 (2017-12-10)
+- No more PID computing. According to support, if Temperature order is superior to measured temperature, heating turn on, that's all. I have tuned that a bit to get more reliable data.
+- New cleaner graph.
+- Now show entire day hours even at beginning of the day. Easier to compare with previous days.
 
 #### v0.2 (2017-11-28)
 - Now computed heating with PID formula.

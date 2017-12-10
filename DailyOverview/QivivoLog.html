@@ -3,11 +3,8 @@
     var qivivoLogPath = "qivivoLog.json"
 
     var logDelta = 5 //number of minutes between logs
-    var tracePID = 0 //debug, if 1 will show PID
-    
-    var P_factor = 20
-    var I_factor = 0.011
-    var D_factor = 1.6
+    var completeDay = 1 //show entire day for current not complete day
+    var weekdays = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'] //translate them if needed
 </script>
 <head>
     <meta charset="utf-8">
@@ -99,101 +96,9 @@
 </section>
 
 <script>
-    var jsonDatas
-    var graphQivivo
-    graphQivivo = document.getElementById('graphQivivo')
-    $.getJSON(qivivoLogPath, function(data)
-        {
-            jsonDatas = data
-            updateDaySelector()
-
-            //show it first as today:
-            today = new Date()
-            day = today.getDate()
-            day = ("0" + today.getDate()).slice(-2)
-            month = today.getMonth()+1
-            month = ("0" + (today.getMonth() + 1)).slice(-2)
-            year = today.getFullYear()
-            drawGraph(day+'.'+month+'.'+year)
-        });
-</script>
-
-<script>
-    function openDaySelector()
-    {
-        document.getElementById("daySelector").classList.toggle("show")
-    }
-
-    window.onclick = function(event)
-    {
-        if (!event.target.matches('.dropbtn'))
-        {
-            var daysdropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < daysdropdowns.length; i++)
-            {
-                var openDropdown = daysdropdowns[i]
-                if (openDropdown.classList.contains('show'))
-                {
-                    openDropdown.classList.remove('show')
-                }
-            }
-        }
-    }
-
-    function openDate(date)
-    {
-        if (date=='All')
-        {
-            drawGraph()
-            return true
-        }
-        drawGraph(date)
-    }
-
-    function updateDaySelector()
-    {
-        var daySelection = []
-        for (day in jsonDatas)
-        {
-            daySelection.push(JSON.stringify(day).slice(1, -1))
-        }
-        var daysDiv = document.getElementById("daySelector")
-
-        //add 'All' link:
-        var aTag = document.createElement('a')
-        aTag.setAttribute('href', '#')
-        aTag.setAttribute('onclick', "openDate('All');")
-        aTag.innerHTML = 'All'
-        daysDiv.appendChild(aTag)
-
-        for (day in daySelection)
-        {
-            date = daySelection[day]
-            var aTag = document.createElement('a')
-            aTag.setAttribute('href', '#')
-            aTag.setAttribute('onclick', "openDate('"+date+"');")
-            aTag.innerHTML = date
-            daysDiv.appendChild(aTag)
-        }
-    }
-
-    function timeConvert(mins)
-    {
-        hours = (mins / 60)
-        rhours = Math.floor(hours)
-        minutes = (hours - rhours) * 60
-        rminutes = Math.round(minutes)
-        return rhours + "h" + rminutes + 'min'
-    }
-</script>
-
-<script>
-    function drawGraph(showDay=null)
+    function drawGraph(showDay=null) //parse data to plotly!
     {
         Plotly.purge(graphQivivo)
-
-        //parse json file as Plotly datas:
         var xAxisValues = []
 
         var heatings = []
@@ -201,7 +106,6 @@
         var current_temperatures = []
         var current_humiditys = []
         var presence_detecteds = []
-        var pids = []
 
         var moyTint = 0
         var sumChauffage = 0
@@ -223,7 +127,7 @@
         {
             parts = showDay.split('.')
             d = new Date(parts[2], parts[1]-1, parts[0]);
-            weekdays = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
+
             fullDay = weekdays[d.getDay()];
         }
 
@@ -231,8 +135,7 @@
         {
             if (showDay != null && showDay != day) continue;
 
-            sumI = 0
-            PrevE = 0
+            prevT = 0
             for (time in plotDatas[day])
             {
                 //formating:
@@ -244,43 +147,47 @@
                 xAxisValues.push(value)
 
                 //is heating or not
-                heating = 0
                 currentT = plotDatas[day][time]['current_temperature']
                 currentC = plotDatas[day][time]['current_temperature_order']
-                E = currentC - currentT
-                avgE = (E+PrevE) / 2
-                
-                //compute PID:
-                pid = (E * P_factor + ((E - avgE) * D_factor) + (sumI * I_factor))
-                pid = pid / 10
-                if (tracePID==1) pids.push(pid)
 
-                if (pid >= 0)
-                {
-                    heating = currentT
-                }
-                sumI += E
-                PrevE = E
+                //brute force:
+                heating = 0
+                if (currentT < prevT && currentT <= currentC) heating = currentC
+                if (currentT < currentC-0.01) heating = currentC
+                prevT = currentT
 
-                if (heating != 0)
-                {
-                    sumChauffage += logDelta
-                }
+                if (heating != 0) sumChauffage += logDelta
                 heatings.push(heating)
+
+                //Other data:
+                presence_detected = plotDatas[day][time]['presence_detected']
+                if (presence_detected != 0) sumPresence += logDelta
+                presence_detecteds.push(presence_detected * 2)
 
                 current_temperature_orders.push(plotDatas[day][time]['current_temperature_order'])
                 current_temperatures.push(plotDatas[day][time]['current_temperature'])
                 current_humiditys.push(plotDatas[day][time]['current_humidity'] / 10)
 
-                presence_detected = plotDatas[day][time]['presence_detected']
-                if (presence_detected != 0)
+            }
+            //fill entire day:
+            if (showDay != null && completeDay == 1)
+            {
+                len = xAxisValues.length
+                if (len < 288)
                 {
-                    sumPresence += logDelta
+                    for (i = len; i < 288; i++)
+                    {
+                        time = timeConvert(i*5)
+                        time = time.replace("h", ":")
+                        time = time.replace("min", "")
+                        time = time.split(":")[0] + ":" + ("0" + time.split(":")[1]).slice(-2)
+                        xAxisValues.push(time)
+                        heatings.push(0)
+                    }
                 }
-                presence_detecteds.push(presence_detected * 2)
+
             }
         }
-
         //format stats:
         sum = current_temperatures.reduce(function(a, b) { return a + b; });
         moyTint = sum / current_temperatures.length;
@@ -305,15 +212,18 @@
                 x: xAxisValues,
                 y: heatings,
                 name: 'Chauffage',
-                fill: 'tonexty',
+                type: 'bar',
+                width: 1,
+                offset: 0,
+                opacity: 0.65,
                 marker: {
-                        color: 'rgb(250, 185, 10)'
-                        },
-                line: {
                         color: 'rgb(250, 185, 10)',
-                        shape: 'hv',
-                        width: 1
-                      },
+                        line: {
+                            color: 'rgb(250, 185, 10)',
+                            width: 1
+                            }
+                        },
+
                 hoverinfo: 'x+text',
                 connectgaps: true
             };
@@ -324,16 +234,17 @@
                 x: xAxisValues,
                 y: presence_detecteds,
                 name: 'Presence',
-                mode: 'lines',
-                //fill: 'tozeroy',
+                type: 'bar',
+                width: 1,
+                offset: 0,
+                opacity: 1,
                 marker: {
-                        color: 'rgb(60, 100, 210)'
-                        },
-                line: {
                         color: 'rgb(60, 100, 210)',
-                        shape: 'hv',
-                        width: 2
-                      },
+                        line: {
+                            color: 'rgb(60, 100, 210)',
+                            width: 1
+                            }
+                        },
                 hoverinfo: 'x+text',
                 connectgaps: true
             };
@@ -359,12 +270,12 @@
         trace = {
                 x: xAxisValues,
                 y: current_temperatures,
-                name: 'Interior T°',
+                name: 'T° Interieur',
                 mode: 'lines',
                 line: {
                         color: 'rgb(60, 80, 200)',
                         shape: 'spline',
-                        width: 5
+                        width: 3
                       },
                 type: 'scatter',
                 connectgaps: true
@@ -375,7 +286,7 @@
         trace = {
                 x: xAxisValues,
                 y: current_humiditys,
-                name: 'Humidity',
+                name: 'Humidité',
                 line: {
                         color: 'rgb(220, 10, 10)',
                         width: 2
@@ -386,42 +297,14 @@
                 text: [],
                 hoverinfo: 'x+text+name'
             };
-        for (N = 0; N < trace.y.length; N += 1) {
-          trace.text.push(Math.round(trace.y[N] * 10, 2) + ' %');
+        for (n = 0; n < trace.y.length; n += 1)
+        {
+          trace.text.push(Math.round(trace.y[n] * 10, 2) + ' %');
         }
         data.push(trace)
 
-        //pids
-        if (tracePID==1)
-        {
-            trace = {
-                x: xAxisValues,
-                y: pids,
-                name: 'pids',
-                mode: 'lines',
-                line: {
-                        color: 'rgb(255, 0, 0)',
-                        shape: 'spline',
-                        width: 2
-                      },
-                type: 'scatter',
-                connectgaps: true
-            };
-            data.push(trace)
-        }
-
-        //layouting:
-        tmpMax = current_temperatures.reduce(function(a, b) {
-            return Math.max(a, b);
-        });
-        orderMax = current_temperature_orders.reduce(function(a, b) {
-            return Math.max(a, b);
-        });
-        rangeMax = tmpMax
-        if (orderMax > tmpMax) rangeMax = orderMax
-
+        rangeMax = 26
         rangeMin = 0
-        if (tracePID==1 && rangeMin>-1) rangeMin = -8
 
         title = 'Qivivo Daily Overview'
         if (showDay != null) title += ' | ' + fullDay + " " + showDay
@@ -430,6 +313,7 @@
                 title: title,
                 height: window.innerHeight-90,
                 width: window.innerWidth-40,
+                barmode: 'overlay',
                 xaxis: {
                         zeroline: true,
                         showgrid: false,
@@ -441,7 +325,7 @@
                 yaxis: {
                         ticklen: 7,
                         ticksuffix: '°c',
-                        range: [rangeMin, rangeMax+4],
+                        range: [rangeMin, rangeMax],
                         showline: true
                         },
                 showlegend: true,
@@ -459,13 +343,102 @@
                         t: 30,
                         pad: 0
                       }
-                };
+        }
+
         if (showDay != null) layout.margin.b = 55
         Plotly.newPlot(graphQivivo, data, layout);
     };
 </script>
 
 <script>
+    //load data:
+    var jsonDatas
+    var graphQivivo
+    graphQivivo = document.getElementById('graphQivivo')
+    $.getJSON(qivivoLogPath, function(data)
+        {
+            jsonDatas = data
+            updateDaySelector()
+
+            //show it first as today:
+            today = new Date()
+            day = today.getDate()
+            day = ("0" + today.getDate()).slice(-2)
+            month = today.getMonth()+1
+            month = ("0" + (today.getMonth() + 1)).slice(-2)
+            year = today.getFullYear()
+            drawGraph(day+'.'+month+'.'+year)
+        });
+
+    function openDaySelector() //Open select day dropdown
+    {
+        document.getElementById("daySelector").classList.toggle("show")
+    }
+
+    window.onclick = function(event) //Close select day dropdown
+    {
+        if (!event.target.matches('.dropbtn'))
+        {
+            var daysdropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < daysdropdowns.length; i++)
+            {
+                var openDropdown = daysdropdowns[i]
+                if (openDropdown.classList.contains('show'))
+                {
+                    openDropdown.classList.remove('show')
+                }
+            }
+        }
+    }
+
+    function openDate(date) //Triggered by select day dropdown
+    {
+        if (date=='All')
+        {
+            drawGraph()
+            return true
+        }
+        drawGraph(date)
+    }
+
+    function updateDaySelector() //Set select day dropdown entries
+    {
+        var daySelection = []
+        for (day in jsonDatas)
+        {
+            daySelection.push(JSON.stringify(day).slice(1, -1))
+        }
+
+        var daysDiv = document.getElementById("daySelector")
+
+        //add 'All' link:
+        var aTag = document.createElement('a')
+        aTag.setAttribute('href', '#')
+        aTag.setAttribute('onclick', "openDate('All');")
+        aTag.innerHTML = 'All'
+        daysDiv.appendChild(aTag)
+
+        for (day in daySelection)
+        {
+            date = daySelection[day]
+            var aTag = document.createElement('a')
+            aTag.setAttribute('href', '#')
+            aTag.setAttribute('onclick', "openDate('"+date+"');")
+            aTag.innerHTML = date
+            daysDiv.appendChild(aTag)
+        }
+    }
+
+    function timeConvert(mins) //format mins to h:min
+    {
+        hours = (mins / 60)
+        rhours = Math.floor(hours)
+        minutes = (hours - rhours) * 60
+        rminutes = Math.round(minutes)
+        return rhours + "h" + rminutes + 'min'
+    }
+
     window.onresize = function() {
             Plotly.relayout('graphQivivo', {
                   height: window.innerHeight-80,
