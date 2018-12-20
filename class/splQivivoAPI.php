@@ -7,7 +7,7 @@ https://github.com/KiboOst/php-simpleQivivoAPI
 
 class splQivivoAPI {
 
-    public $_version = '0.1';
+    public $_version = '0.11';
 
     //USER FUNCTIONS======================================================
 
@@ -146,6 +146,7 @@ class splQivivoAPI {
 
     public function setThermostatTemperature($temperature, $minutes)
     {
+        $temperature = floatval(number_format($temperature+0.01, 2, '.', '')); //add 0.01 so php can handle 0.00 as float!!
         $url = $this->_apiRoot.'/devices/thermostats/'.$this->_thermostatUUID.'/temperature/temporary-instruction';
         $post = array('temperature'=> $temperature, 'duration'=> $minutes);
         $answer = $this->_request('POST', $url, json_encode($post));
