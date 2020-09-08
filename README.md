@@ -1,5 +1,7 @@
 # php-simpleQivivoAPI
 
+> DEPRECATED
+
 > !WARNING September 2020: Since Comap migrated devices to new interface / apps, the official API doesn't reach devices anymore. New official API should be ready by the end of 2020.
 My custom API has been updated to support new interface: https://github.com/KiboOst/php-qivivoAPI
 
