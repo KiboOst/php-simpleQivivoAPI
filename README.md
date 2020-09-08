@@ -1,5 +1,8 @@
 # php-simpleQivivoAPI
 
+> !WARNING September 2020: Since Comap migrated devices to new interface / apps, the official API doesn't reach devices anymore. New official API should be ready by the end of 2020.
+My custom API has been updated to support new interface: https://github.com/KiboOst/php-qivivoAPI
+
 ## Simple to use php official API warper for Smart Qivivo Thermostat
 
 This php API is a set of functions used with the official Qivivo API, so you don't have to mess with oauth2 autorization, access token and curl requests handling.
